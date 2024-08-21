@@ -1,17 +1,40 @@
 .box {
     width: 800px;
-    /* margin: 15px 40px; */
+    margin: 15px 40px;
     padding: 20px;
 }
 
-.container {
+.container-numbers {
+    padding: 15px 25px;
+    background-color: rgb(240, 88, 88);
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 15px;
 }
 
+.container-fe {
+    width: 800px;
+    background-color: bisque;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    margin: 30px auto;
+    padding: 25px;
+}
+
 .grid-item {
-    border: 1px solid blue;
-    background-color: aquamarine;
-    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+    background-color: rgb(6, 165, 250);
+    font-size: 28px;
+}
+
+.grid-fe {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+    border-radius: 4px;
+    background-color: rgb(250, 201, 6);
+    font-size: 28px;
 }
