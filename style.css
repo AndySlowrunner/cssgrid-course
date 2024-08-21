@@ -1,0 +1,17 @@
+.box {
+    width: 800px;
+    /* margin: 15px 40px; */
+    padding: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.grid-item {
+    border: 1px solid blue;
+    background-color: aquamarine;
+    font-size: 12px;
+}
